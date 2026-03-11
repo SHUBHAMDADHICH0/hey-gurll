@@ -120,7 +120,7 @@ const SecretMessages = () => {
               </div>
             ))}
           </div>
-          *}
+          */}
         )}
       </div>
     </div>
