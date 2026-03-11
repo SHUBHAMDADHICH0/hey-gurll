@@ -103,7 +103,8 @@ const SecretMessages = () => {
             Koi secret message nahi hai abhi… pehla tu bhej! 🤫
           </p>
         ) : (
-      {/*<div className="space-y-3 max-h-64 overflow-y-auto pr-1">
+      {/*
+      <div className="space-y-3 max-h-64 overflow-y-auto pr-1">
             {messages.map((msg) => (
               <div
                 key={msg.id}
