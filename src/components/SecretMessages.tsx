@@ -103,26 +103,7 @@ const SecretMessages = () => {
             Koi secret message nahi hai abhi… pehla tu bhej! 🤫
           </p>
         ) : null}
-      {/*
-      <div className="space-y-3 max-h-64 overflow-y-auto pr-1">
-            {messages.map((msg) => (
-              <div
-                key={msg.id}
-                className="p-3 rounded-xl bg-white/5 border border-white/10"
-              >
-                <p className="text-white/85 text-sm md:text-base leading-relaxed">
-                  {msg.message}
-                </p>
-                <p className="text-white/30 text-xs mt-1.5">
-                  {msg.sender_name ? `— ${msg.sender_name}` : "— Anonymous"}{" "}
-                  · {new Date(msg.created_at).toLocaleDateString()}
-                </p>
-              </div>
-            ))}
-          </div>
-          */}
-        )}
-      </div>
+        </div>
     </div>
   );
 };
