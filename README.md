@@ -1,4 +1,4 @@
-# welcome to my project name - Hey-Gurll
+# Hey-Gurll -Interactive Wish Web App
 
 Hey Gurll is a small web project made for sending cute and special wishes.
 
