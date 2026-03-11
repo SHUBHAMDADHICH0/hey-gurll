@@ -102,7 +102,7 @@ const SecretMessages = () => {
           <p className="text-white/40 text-center italic">
             Koi secret message nahi hai abhi… pehla tu bhej! 🤫
           </p>
-        ) : (
+        ) : null}
       {/*
       <div className="space-y-3 max-h-64 overflow-y-auto pr-1">
             {messages.map((msg) => (
