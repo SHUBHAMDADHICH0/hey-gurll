@@ -1,4 +1,4 @@
-# Hey-Gurll
+# welcome to my project name - Hey-Gurll
 
 Hey Gurll is a small web project made for sending cute and special wishes.
 
