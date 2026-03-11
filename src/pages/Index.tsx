@@ -218,7 +218,7 @@ const Slide5 = () => (
       <div className="luxury-divider" />
       <p className="text-white/60 text-base italic">— with care, always 🌟</p>
     </div>
-    <SecretMessages />
+    {/* <SecretMessages /> */}
   </div>
 );
 
