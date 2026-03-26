@@ -153,7 +153,7 @@ const Slide2 = () => (
         by the way hot kahii kii 🤓🤓
       </p>
       <p className="text-base md:text-lg text-white/70 leading-relaxed italic">
-        Tu bohot special h mere liye… aur always rahegi 🌸
+        you are always special for me and hamesha rahegi bhi 🌸
       </p>
     </div>
   </div>
@@ -170,8 +170,8 @@ const Slide3 = () => (
       <ul className="text-left space-y-3 text-lg md:text-xl text-white/85 font-medium leading-relaxed">
         <li>✦ Tere chehre pe smile lanne ke liye toh jaan bhi kurban 🌟</li>
         <li>✦ Tujhse baat krke chehre pe continuously smile rehti h blush pure din 😊</li>
-        <li>✦ Tu gussa h ya naraz pr ignore krti h tbh kafi huruut hota h 😔</li>
-        <li>✦ Manjaa yrr, kyu krna ignore hm? 🙃</li>
+        <li>✦ Tu gussa h ya naraz pr ignore krti h tbh kafi khubshuruut hota h 😔</li>
+        <li>✦ Manjaa bhi , gussa reh kek kisi ka bhala hua h? 🙃</li>
       </ul>
     </div>
   </div>
@@ -192,7 +192,7 @@ const Slide4 = () => (
       </p>
       <div className="luxury-divider" />
       <p className="text-base md:text-lg text-white/70 italic leading-relaxed">
-        Dosti ho ya kuch aur… tu meri priority rahegi always 💯
+        Dosti ho ya pyar… tu meri always 1st priority rahegi always 💯
       </p>
     </div>
   </div>
@@ -203,17 +203,17 @@ const Slide5 = () => (
     <div className="text-6xl md:text-8xl mb-6 drop-shadow-2xl animate-pulse">✨</div>
     <div className="luxury-card-highlight p-8 md:p-10">
       <p className="text-2xl md:text-3xl font-bold luxury-text-gradient mb-4">
-        Happy Women's Day 🌸
+        happy bitrthday 🌸
       </p>
       <div className="luxury-divider" />
       <p className="text-lg md:text-xl text-white/85 font-medium leading-relaxed mb-4">
         Duniya ki sabse khoobsurat ladki ko…
         <br />
-        my lady (dimp) ko… 🌸
+        miss drinkle… 🌸
       </p>
       <div className="luxury-divider" />
       <p className="text-xl md:text-2xl font-bold text-pink-300 mb-2">
-        Ab mann ja na yrr… please 🥺
+        Ab mann ja na yrr… nhi manegi toh bhi kya farak pdega
       </p>
       <div className="luxury-divider" />
       <p className="text-white/60 text-base italic">— with care, always 🌟</p>
@@ -371,7 +371,7 @@ const Index = () => {
             ✦ a special message ✦
           </p>
           <h1 className="text-4xl md:text-6xl font-extrabold mb-2 luxury-text-gradient drop-shadow-2xl">
-            Happy Women's Day
+            Happy birthday
           </h1>
           <span className="text-4xl md:text-5xl">🌸</span>
         </div>
@@ -379,10 +379,10 @@ const Index = () => {
         <div className="animate-fade-in mt-8" style={{ animationDelay: "0.3s" }}>
           <div className="luxury-card p-5 md:p-6">
             <p className="text-base md:text-lg text-white/80 leading-relaxed">
-              I know that ki tu kitne time se ignore kr rhi h ,..but i really want ki hum vapas baat krne lagge ,..
+              I know ki vaghera vagherra ,..but i really want ki hum vapas baat krne lagge ,..
             </p>
             <p className="font-bold text-lg md:text-xl mt-2 luxury-text-gradient">
-              My lady( dimpp)🌸
+              miss drinkle🌸
             </p>
           </div>
         </div>
@@ -390,14 +390,14 @@ const Index = () => {
         <div className="animate-fade-in mt-8" style={{ animationDelay: "0.6s" }}>
           <div className="luxury-card-highlight p-6 md:p-8">
             <p className="text-xl md:text-2xl font-bold text-white leading-relaxed">
-              kee ho gya chorri gussa h kee mann bhi jaa chukri 🙂?
+              kee ho gya chorri gussa h kee , aghr gussa h bhi toh kisse farak pdta h?
             </p>
             <p className="text-lg md:text-xl font-semibold mt-2 luxury-text-gradient">mangyii kee</p>
             <div className="luxury-divider" />
             <p className="text-base md:text-lg text-white/70 italic leading-relaxed">
-              mann bhi jaa yrr 🙂 sachi kaffi adhura sa ajeeb sa lag rha…
+              mann na h toh varna jai shree ram…
               <br />
-              <span className="text-pink-200 font-medium">so mann ja 🙏</span>
+              <span className="text-pink-200 font-medium">so mann ja 🖤</span>
             </p>
           </div>
         </div>
