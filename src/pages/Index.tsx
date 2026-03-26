@@ -133,10 +133,10 @@ const Slide1 = () => (
       </h1>
       <div className="luxury-divider" />
       <p className="text-xl md:text-2xl text-white/85 font-medium leading-relaxed">
-        I knew tu maanegi… koi nahi bol sakta mujhe No 😏🔥
+        I knew ki tu maanegi… koi nahi bol sakta mujhe No 😏🔥
       </p>
       <div className="luxury-divider" />
-      <p className="text-lg text-white/50 italic">swipe karo aage →</p>
+      <p className="text-lg text-white/50 italic">swipe karna h toh kr →</p>
     </div>
   </div>
 );
@@ -146,7 +146,7 @@ const Slide2 = () => (
     <div className="text-6xl md:text-8xl mb-6 drop-shadow-2xl">🌸</div>
     <div className="luxury-card-highlight p-8 md:p-10">
       <h1 className="text-2xl md:text-4xl font-extrabold mb-4 leading-tight luxury-text-gradient">
-        See… I knew you could smile 😊
+        hasna h toh hass 😊
       </h1>
       <div className="luxury-divider" />
       <p className="text-lg md:text-xl text-white/85 font-medium mb-3 leading-relaxed">
@@ -213,7 +213,7 @@ const Slide5 = () => (
       </p>
       <div className="luxury-divider" />
       <p className="text-xl md:text-2xl font-bold text-pink-300 mb-2">
-        Ab mann ja na yrr… nhi manegi toh bhi kya farak pdega
+        Ab mann na h toh mann…or aghr  nhi manne toh who even cares !!
       </p>
       <div className="luxury-divider" />
       <p className="text-white/60 text-base italic">— with care, always 🌟</p>
@@ -395,7 +395,7 @@ const Index = () => {
             <p className="text-lg md:text-xl font-semibold mt-2 luxury-text-gradient">mangyii kee</p>
             <div className="luxury-divider" />
             <p className="text-base md:text-lg text-white/70 italic leading-relaxed">
-              mann na h toh varna jai shree ram…
+              mann na h toh mann , varna jai shree ram…
               <br />
               <span className="text-pink-200 font-medium">so mann ja 🖤</span>
             </p>
