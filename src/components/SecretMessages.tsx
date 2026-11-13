@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { supabase } from "@/integrations/supabase/client";
+import { getSupabaseClient, isSupabaseConfigured } from "@/integrations/supabase/client";
 import { toast } from "sonner";
 
 interface SecretMessage {
@@ -21,6 +21,12 @@ const SecretMessages = () => {
   }, []);
 
   const fetchMessages = async () => {
+    const supabase = getSupabaseClient();
+    if (!supabase) {
+      setLoading(false);
+      return;
+    }
+
     setLoading(true);
     const { data, error } = await supabase
       .from("secret_messages")
@@ -36,6 +42,12 @@ const SecretMessages = () => {
     if (!trimmedMsg) return;
     if (trimmedMsg.length > 500) {
       toast.error("Message 500 characters se chhota hona chahiye!");
+      return;
+    }
+
+    const supabase = getSupabaseClient();
+    if (!supabase) {
+      toast.error("Secret messages are temporarily unavailable.");
       return;
     }
 
@@ -67,6 +79,8 @@ const SecretMessages = () => {
         <input
           type="text"
           placeholder="Tera naam (optional)"
+          aria-label="Your name, optional"
+          disabled={!isSupabaseConfigured}
           value={senderName}
           onChange={(e) => setSenderName(e.target.value)}
           maxLength={50}
@@ -74,15 +88,17 @@ const SecretMessages = () => {
         />
         <textarea
           placeholder="Apna secret message likh yaha… 🤫"
+          aria-label="Your secret message"
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}
           maxLength={500}
           rows={3}
+          disabled={!isSupabaseConfigured}
           className="w-full mb-3 px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/30 focus:outline-none focus:border-pink-400/50 transition-colors resize-none"
         />
         <button
           onClick={handleSend}
-          disabled={sending || !newMessage.trim()}
+          disabled={sending || !newMessage.trim() || !isSupabaseConfigured}
           className="luxury-btn-yes w-full disabled:opacity-40 disabled:cursor-not-allowed"
         >
           {sending ? "Sending… ✨" : "Send Secret Message 💌"}
@@ -96,7 +112,11 @@ const SecretMessages = () => {
         </p>
         <div className="luxury-divider" />
 
-        {loading ? (
+        {!isSupabaseConfigured ? (
+          <p role="status" className="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white/70">
+            Secret messages are paused because Supabase credentials are not available in this environment.
+          </p>
+        ) : loading ? (
           <p className="text-white/40 text-center italic">Loading… ✨</p>
         ) : messages.length === 0 ? (
           <p className="text-white/40 text-center italic">
