@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: Number(process.env.PORT) || 3000,
     strictPort: true,
+    allowedHosts: [".vercel.run"],
     hmr: {
       overlay: false,
     },
